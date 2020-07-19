@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  font-family: Bitter, Helvetica, Roboto, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #282c34;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #e1ebff;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  list-style: none;
+}
+
+.navLinks a {
+  color: #e1ebff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navLinks a:hover {
+  color:  #fde0a6;
+}
+
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  margin: 5px;
+  background-color:aliceblue;
+  transition: 0.5s ease;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .navLinks {
+    box-sizing: border-box;
+    margin: 0;
+    position: absolute;
+    right: -100%;
+    height: 92vh;
+    top: 8vh;
+    background-color: #282c34;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transition: transform 0.5s ease-in;
+  }
+
+}
+
+.navLinks-active {
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in;
+}
+
+.navLinks-active li:nth-child(1) {
+  animation: navLinkFades 1s 0s ease-in;
+}
+
+.navLinks-active li:nth-child(2) {
+  animation: navLinkFades 1.25s 0s ease-in;
+}
+
+.navLinks-active li:nth-child(3) {
+  animation: navLinkFades 1.5s 0s ease-in;
+}
+
+@keyframes navLinkFades {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 100;
+    transform: translateX(0px);
+  }
+}
+
+.burger-active .line1 {
+  transform: rotate(-45deg) translate(-5px, 5px);
+  transition: transform 0.5s ease-in;
+}
+
+.burger-active .line2 {
+  opacity: 0;
+  transition: transform 0.5s ease-in;
+}
+
+.burger-active .line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
+  transition: transform 0.5s ease-in;
+}
