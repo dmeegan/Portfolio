@@ -17,7 +17,7 @@ nav {
 .logo {
   text-transform: uppercase;
   font-size: 1.5em;
-  color: #e1ebff;
+  color: #A6DEE7;
   padding-left: 20px;
 }
 
@@ -28,7 +28,7 @@ nav {
 }
 
 .navLinks a {
-  color: #e1ebff;
+  color: #A6DEE7;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1.1em;
@@ -44,7 +44,7 @@ nav {
   width: 25px;
   height: 2px;
   margin: 5px;
-  background-color: #e1ebff;
+  background-color: #A6DEE7;
   transition: 0.5s ease;
 }
 
@@ -82,7 +82,8 @@ nav {
   }
 
   .navLinks-active a {
-    font-size: 2em;
+    font-size: 1.5em;
+    padding: 0;
   }
 
   .navLinks-active {

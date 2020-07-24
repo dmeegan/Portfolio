@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import './App.css';
 import '../About/About.css';
 import '../Nav/Nav.css';
+import '../Hero/Hero.css';
 import Burger from '../Nav/Burger.js'
 import NavLinks from '../Nav/NavLinks.js'
 import LogoNav from '../Nav/LogoNav';
 import About from '../About/About';
+import Hero from '../Hero/Hero';
 
 function App() {
 
@@ -24,7 +26,8 @@ function App() {
           <Burger navIsActive={navIsActive} toggleNavActive={toggleNavActive} />
         </nav>
       </div>
-        <About />
+      <Hero />
+      <About />
     </div>
   );
 }
