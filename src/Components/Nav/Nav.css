@@ -21,6 +21,10 @@ nav {
   padding-left: 20px;
 }
 
+.logo:hover {
+  transform: scale(1.1);
+}
+
 .navLinks {
   display: inline-flex;
   justify-content: space-around;
