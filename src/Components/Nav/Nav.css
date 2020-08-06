@@ -57,6 +57,10 @@ nav {
   margin: 10px;
 }
 
+.burger:hover div {
+ background-color: #fde0a6;
+}
+
 @media screen and (max-width: 768px) {
   .burger {
     display: block;

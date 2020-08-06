@@ -4,7 +4,7 @@ function PortfolioItem(props) {
     return (
         <article className="portfolioItem">
             <div className="portfolioItem-header">
-                <img className="portfolioItem-image" src={props.imgSrc}></img>
+                <img className="portfolioItem-image" alt={props.imgAlt} src={props.imgSrc}></img>
                 <h3 className="portfolioItem-title">{props.title}</h3>
             </div>
             <div className="portfolioItem-info">

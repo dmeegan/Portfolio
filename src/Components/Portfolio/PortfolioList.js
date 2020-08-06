@@ -3,7 +3,7 @@ import PortfolioItem from './PortfolioItem';
 
 function PortfolioList(props) {
     return (
-        <div className="portfolioList-container">
+        <div id="portfolio-section" className="portfolioList-container">
             {
                 props.portfolio.map( item => (
                     <PortfolioItem 
@@ -11,6 +11,7 @@ function PortfolioList(props) {
                         title={item.title}
                         description={item.description}
                         imgSrc={item.imgSrc}
+                        imgAlt={item.imgAlt}
                         toolsList={item.toolsList}
                         repoLink={item.repoLink}
                         liveSiteLink={item.liveSiteLink}
