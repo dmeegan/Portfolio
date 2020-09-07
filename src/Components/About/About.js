@@ -6,7 +6,7 @@ function About() {
             <h1>About Me</h1>
             <div className="am-container">
                 <div className="am-headshot-col">
-                <img className="headshot" src='headshot.jpg' title="Dan Meegan" alt="dan meegan headshot" />
+                <img className="headshot" src='./Images/headshot.jpg' title="Dan Meegan" alt="dan meegan headshot" />
                 </div>
                 <div className="am-text-col">
                 <p>I am a self-taught web developer currently based in Boston. I am focused on creating clean modern websites and web applications.</p>
