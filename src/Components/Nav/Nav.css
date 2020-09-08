@@ -5,8 +5,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
-    background-color: #282c34;
-  }
+    background-color: hsl(0, 0%, 0%, 80%);
+    z-index: 1000;  
+}
   
   .nav-container {
     position: sticky;

@@ -8,6 +8,7 @@
     position: relative;
     z-index: -1;
     min-height: 110vh;
+    background-color: #08060d;
     background-image: url(hero-boston.JPG);
     background-position: top;
     background-repeat: no-repeat;
@@ -16,7 +17,7 @@
 
 .hero-text {
     font-family: 'Fira Code', monospace;
-    color: #D1604D;
+    color: #c42625;
     position: relative;
     top: 5%;
 }
