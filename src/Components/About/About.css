@@ -7,7 +7,7 @@
 
 .am-text {
     flex: 1 1 350px;
-    justify-content: center;
+    text-align: left;
 }
 
 .am-headshot {
@@ -17,10 +17,10 @@
 
 .headshot {
   width: 100%;
-  max-width: 350px;
+  max-width: 375px;
 }
 
 .am-container p {
   font-size: 1.1em;
-  padding: 0 10% 0 10%;
+  margin: 1em;
 }

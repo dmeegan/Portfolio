@@ -18,8 +18,8 @@ function PortfolioItem(props) {
                 </ul>
                 <div className="portfolioItem-description">{props.description}</div>
                 <div className="portfolioItem-links-container">
-                    <a className="portfolioItem-links" href={props.liveSiteLink}> Live Site </a>
-                    <a className="portfolioItem-links" href={props.repoLink}> Repo </a>
+                    <a className="portfolioItem-link-secondary" href={props.repoLink}> Repo </a>
+                    <a className="portfolioItem-link-primary" href={props.liveSiteLink}> Live Site </a>
                 </div>
             </div>
         </article>

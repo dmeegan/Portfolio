@@ -18,7 +18,6 @@
     flex: 1 1 350px;
     margin: 1em 1em 1em 1em;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
     background-color: #525252;
     overflow: hidden;
 }
@@ -30,16 +29,16 @@
 }
 
 .portfolioItem li {
-  display: inline-flex;
-  justify-content: space-around;
   list-style: none;
   background-color: #a8dadc;
   color: #08060d;
-  margin: 0.25em;
+  margin: 0.5em 1em;
   padding: 0.25em 0.5em;
 }
 
 .portfolioItem-toolsList {
+    display: flex;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
 }
@@ -61,13 +60,31 @@
 .portfolioItem-description p {
     margin: 1em 1em;
     text-align: left;
-    line-height: 1.5;
 }
 
 .portfolioItem-description {
     flex-grow: 1;
 }
 
+.portfolioItem-links-container a {
+    text-decoration: none;
+    margin: 0.5em;
+    padding: 0.25em 0.5em;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
 .portfolioItem-links-container {
-    height: 2em;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em 0;
+}
+
+.portfolioItem-link-primary {
+    color: #08060d;
+    background-color: #f1faee;
+}
+
+.portfolioItem-link-secondary {
+    color:  #08060d;
 }
