@@ -16,12 +16,11 @@
 }
 
 .hero-text {
-    font-family: 'Fira Code', monospace;
-    color: #c42625;
+    font-family: 'Fira Code', 'Montserrat', 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
     position: relative;
     top: 5%;
 }
 
-.hero-text h1 {
-    font-size: 2.5em;
-}
+/* .hero-text h1 {
+    font-size: 250%;
+} */

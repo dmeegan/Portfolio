@@ -7,11 +7,21 @@
   padding: 0px;
   box-sizing: border-box;
   z-index: -1;
-  background-color: #08060d;
+  background-color: #1d3557;
   opacity: 1;
-  color: #e4e1d1;
+  color: #f1faee;
 }
 
-section {
-  margin: 3em 0 3em 0
+h1 {
+  font-size: 2.5em;
+  color: #c42625;
+}
+
+h2 {
+  font-size: 2em;
+  color: #c42625;
+}
+
+h3 {
+  font-size: 1.5em;
 }

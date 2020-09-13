@@ -1,27 +1,26 @@
 
 .am-container {
+  margin: 1em;
     display: flex;
     flex-wrap: wrap;
 }
 
-.am-headshot-col {
-    flex: 0 0 33%;
-    max-width: 33%;
-}
-
-.am-text-col {
-  display: flex;
-  flex-direction: column;
-    flex: 0 0 66%;
-    max-width: 66%;
+.am-text {
+    flex: 1 1 350px;
     justify-content: center;
 }
 
-.headshot {
-    width: 80%;
-padding: 0 10% 0 10%;
+.am-headshot {
+  flex: 1 1 200px;
+  align-content: center;
 }
 
-p {
+.headshot {
+  width: 100%;
+  max-width: 350px;
+}
+
+.am-container p {
   font-size: 1.1em;
+  padding: 0 10% 0 10%;
 }

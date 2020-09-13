@@ -16,7 +16,11 @@ function PortfolioItem(props) {
                         ))
                     }
                 </ul>
-                <p className="portfolioItem-description">{props.description}</p>
+                <div className="portfolioItem-description">{props.description}</div>
+                <div className="portfolioItem-links-container">
+                    <a className="portfolioItem-links" href={props.liveSiteLink}> Live Site </a>
+                    <a className="portfolioItem-links" href={props.repoLink}> Repo </a>
+                </div>
             </div>
         </article>
     )
