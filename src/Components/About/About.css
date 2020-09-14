@@ -18,6 +18,7 @@
 .headshot {
   width: 100%;
   max-width: 375px;
+  border-radius: calc((1/100vw) * (100));
 }
 
 .am-container p {

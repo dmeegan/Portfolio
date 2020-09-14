@@ -4,12 +4,14 @@ import '../About/About.css';
 import '../Nav/Nav.css';
 import '../Hero/Hero.css';
 import '../Portfolio/Portfolio.css';
+import '../Contact/Contact.css';
 import Burger from '../Nav/Burger.js'
 import NavLinks from '../Nav/NavLinks.js'
 import LogoNav from '../Nav/LogoNav';
 import About from '../About/About';
 import Hero from '../Hero/Hero';
 import PortfolioList from '../Portfolio/PortfolioList';
+import Contact from '../Contact/Contact';
 
 function App() {
 
@@ -55,6 +57,7 @@ function App() {
         <Hero />
         <About />
         <PortfolioList portfolio={portfolio} />
+        <Contact />
       </div>
     </div>
   );
