@@ -5,13 +5,13 @@ function Contact() {
         <form className="contactForm" name="contact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact"/>
             <div>
-                <label>Your Name <br></br> <input type="text" name="name" required/></label><br></br>
+                <label for="contactName">Your Name </label> <input type="text" name="name" id="contactName" required placeholder="Enter your name"/><br></br>
             </div>
             <div>
-                <label>Your Email <br></br> <input type="email" name="email" required/></label><br></br>
+                <label for="contactEmail">Your Email </label> <input type="email" name="email" id="contactEmail" required placeholder="Enter your email"/><br></br>
             </div>
             <div>
-                <label>Message <br></br> <textarea name="message" rows="10" required></textarea></label>
+                <label for="contactMessage"> Message </label><textarea name="message" rows="10" id="contactMessage" required placeholder="Message"></textarea>
             </div>
             <div>
                 <button type="submit">Send</button>

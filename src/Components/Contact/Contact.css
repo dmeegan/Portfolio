@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     line-height: 1.2;
+    font-weight: 400;
 }
 
 .contactForm div {
@@ -14,22 +15,28 @@
 .contactForm input {
     width: 100%;
     border-radius: 3px;
-    height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1em;
     line-height: 1.5;
     color: #495057;
+    font-size: 1em;
+    font-family: 'Montserrat', 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
 .contactForm label {
-    align-self: flex-start;
+    display: flex;
 }
 
 .contactForm textarea {
     width: 100%;
     border-radius: 3px;
-    padding-left: 10px;
+    padding: .375rem .75rem;
+    font-size: 1em;
+    font-family: 'Montserrat', 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
 
