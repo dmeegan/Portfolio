@@ -4,7 +4,7 @@ function Contact() {
     return (
         <section id="contact-section">
             <h2>Contact Me</h2>
-            <form className="contactForm" name="contact" method="POST" data-netlify="true">
+            <form className="contactForm" method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact" />
                 <div>
                     <label for="contactName">Your Name </label> <input type="text" name="name" id="contactName" required placeholder="Enter your name" /><br></br>
@@ -16,7 +16,7 @@ function Contact() {
                     <label for="contactMessage"> Message </label><textarea name="message" rows="10" id="contactMessage" required placeholder="Message"></textarea>
                 </div>
                 <div>
-                    <button type="submit">Send</button>
+                    <button type="submit" value="send">Send</button>
                 </div>
             </form>
         </section>
