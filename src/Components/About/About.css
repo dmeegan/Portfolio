@@ -18,10 +18,19 @@
 .headshot {
   width: 100%;
   max-width: 375px;
-  border-radius: calc((1/100vw) * (100));
 }
 
 .am-container p {
   font-size: 1.1em;
   margin: 1em;
+}
+
+.am-container a {
+  color: #a8dadc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.am-container a:hover {
+  color:  #fde0a6;
 }

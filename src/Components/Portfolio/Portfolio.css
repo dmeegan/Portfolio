@@ -82,9 +82,17 @@
 
 .portfolioItem-link-primary {
     color: #08060d;
-    background-color: #f1faee;
+    background-color: #a8dadc;
+}
+
+.portfolioItem-link-primary:hover {
+    background-color:#fde0a6;;
 }
 
 .portfolioItem-link-secondary {
-    color:  #08060d;
+    color:  #a8dadc;
+}
+
+.portfolioItem-link-secondary:hover {
+    color:  #fde0a6;
 }

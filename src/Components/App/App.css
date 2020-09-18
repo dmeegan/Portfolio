@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
   position: absolute;
@@ -8,6 +12,9 @@
   box-sizing: border-box;
   z-index: -1;
   background-color: #001531;
+  background-image: url('./Background/free010.svg');
+  background-size: 300px;
+  background-repeat: repeat;
   opacity: 1;
   color: #f1faee;
 }
@@ -30,9 +37,11 @@ h3 {
 }
 
 section {
-  margin: 5em 0;
+  margin: 0;
+  padding: 2.5em 0;
 }
 
 p {
-  line-height: 1.3;
+  line-height: 1.5;
 }
+
