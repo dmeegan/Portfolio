@@ -30,9 +30,10 @@
 
 .portfolioItem li {
   list-style: none;
-  background-color: #a8dadc;
   color: #08060d;
-  margin: 0.5em 1em;
+  border: 2px solid #08060d;
+  border-radius: 5px;
+  margin: 0.5em 0.5em;
   padding: 0.25em 0.5em;
 }
 
@@ -40,7 +41,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    margin: 0;
+    margin: 0.5em;
 }
 
 .portfolioItem-title {

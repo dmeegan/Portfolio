@@ -12,9 +12,9 @@
   box-sizing: border-box;
   z-index: -1;
   background-color: #001531;
-  background-image: url('./Background/free010.svg');
-  background-size: 300px;
-  background-repeat: repeat;
+  background-image: url('./Background/whitegrit.png'), url('./Background/blackgrit.png');
+  background-size: 500px, 1000px;
+  background-repeat: repeat, no-repeat;
   opacity: 1;
   color: #f1faee;
 }
