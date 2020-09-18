@@ -45,7 +45,7 @@ function App() {
   ]);
 
   return (
-    <div className="App">
+    <div className="App" id="home">
       <div className="nav-container">
         <nav className="nav">
           <LogoNav />
