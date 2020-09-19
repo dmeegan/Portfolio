@@ -4,8 +4,8 @@ function Contact() {
     return (
         <section id="contact-section">
             <h2>Contact Me</h2>
-            <form className="contactForm" method="POST" data-netlify="true">
-                <input type="hidden" name="form-name" value="contact" />
+            <form className="contactForm" name="contactForm" method="POST" >
+                <input type="hidden" name="form-name" value="contactForm" />
                 <div>
                     <label for="contactName">Your Name </label> <input type="text" name="name" id="contactName" required placeholder="Enter your name" /><br></br>
                 </div>
