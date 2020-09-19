@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.70971b24.chunk.css",
+    "main.css": "/static/css/main.d0173acf.chunk.css",
     "main.js": "/static/js/main.e333941f.chunk.js",
     "main.js.map": "/static/js/main.e333941f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
@@ -8,9 +8,9 @@
     "static/js/2.0b15655c.chunk.js": "/static/js/2.0b15655c.chunk.js",
     "static/js/2.0b15655c.chunk.js.map": "/static/js/2.0b15655c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.df4986d461ed15e15a3cff54caa834c8.js": "/precache-manifest.df4986d461ed15e15a3cff54caa834c8.js",
+    "precache-manifest.e7eb4c892244fd5a7640264594c3da49.js": "/precache-manifest.e7eb4c892244fd5a7640264594c3da49.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.70971b24.chunk.css.map": "/static/css/main.70971b24.chunk.css.map",
+    "static/css/main.d0173acf.chunk.css.map": "/static/css/main.d0173acf.chunk.css.map",
     "static/js/2.0b15655c.chunk.js.LICENSE.txt": "/static/js/2.0b15655c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/whitegrit.3e67bed8.png",
     "static/media/Hero.css": "/static/media/hero-boston.9116408e.JPG"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.0b15655c.chunk.js",
-    "static/css/main.70971b24.chunk.css",
+    "static/css/main.d0173acf.chunk.css",
     "static/js/main.e333941f.chunk.js"
   ]
 }
