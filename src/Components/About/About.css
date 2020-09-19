@@ -12,7 +12,9 @@
 
 .am-headshot {
   flex: 1 1 200px;
+  
   align-content: center;
+  margin: 1em;
 }
 
 .headshot {
