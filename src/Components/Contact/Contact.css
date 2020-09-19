@@ -39,4 +39,26 @@
     margin-top: 10px;
 }
 
+.contactForm button {
+    padding: 0.3em 0.6em;
+    font-size: 1.1em;
+    color: #f1faee;
+    border-radius: 10px;
+    background-color: inherit;
+    border: 1px solid #f1faee;
+    /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 1); */
+    backdrop-filter: sepia(30%);
+    transition-property: all 0.3s;
+}
+
+.contactForm button:hover {
+    background-color: #f1faee; 
+    color: #08060d;
+}
+
+.contactForm button:active {
+transform: translateY(1px);
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
 
