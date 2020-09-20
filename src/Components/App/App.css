@@ -10,7 +10,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  z-index: -1;
+  z-index: -2;
   background-color: #001531;
   background-image: url('./Background/whitegrit.png'), url('./Background/blackgrit.png');
   background-size: 500px, 1000px;

@@ -3,9 +3,12 @@ import './Portfolio.css';
 
 function PortfolioItem(props) {
     return (
-        <article className="portfolioItem">
+        <article className={props.role === 'Author' ? "portfolioItem" : "portfolioItem portfolioItem-contributor"}>
             <div className="portfolioItem-header">
-                <img className="portfolioItem-image" alt={props.imgAlt} src={props.imgSrc}></img>
+                <div className="portfolioItem-image-container">
+                    <h2 className="portfolioItem-role">{props.role}</h2>
+                    <img className="portfolioItem-image" alt={props.imgAlt} src={props.imgSrc}></img>
+                </div>
                 <h3 className="portfolioItem-title">{props.title}</h3>
             </div>
             <div className="portfolioItem-info">

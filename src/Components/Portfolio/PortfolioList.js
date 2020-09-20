@@ -12,6 +12,7 @@ function PortfolioList(props) {
                             <PortfolioItem
                                 key={item.id}
                                 title={item.title}
+                                role={item.role}
                                 description={item.description}
                                 imgSrc={item.imgSrc}
                                 imgAlt={item.imgAlt}

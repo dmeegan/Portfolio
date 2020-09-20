@@ -20,15 +20,33 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     background-color: #525252;
     overflow: hidden;
+    /* text-align: center; */
+    /* z-index: -1; */
 }
 
-.portfolioItem img {
+.portfolioItem-image-container {
+    position: relative; 
+}
+
+.portfolioItem-role {
+    position: absolute;
+    opacity: 50%;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%) rotate(-45deg);
+}
+
+ .portfolioItem-contributor {
+    background-color: #2C0A00;
+}
+
+ .portfolioItem-image {
     max-height: 100%;
     max-width: 100%;
     overflow: hidden;
 }
 
-.portfolioItem li {
+ .portfolioItem-toolsList li {
   list-style: none;
   color: #08060d;
   background-color: #f1faee;
