@@ -15,7 +15,6 @@
   background-image: url('./Background/whitegrit.png'), url('./Background/blackgrit.png');
   background-size: 500px, 1000px;
   background-repeat: repeat, no-repeat;
-  opacity: 1;
   color: #f1faee;
 }
 
