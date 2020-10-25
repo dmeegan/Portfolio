@@ -38,7 +38,7 @@ function App() {
       title: 'Title V Bot',
       role: 'Author',
       description: (<div><p>Title V Bot is a web application to help the user design septic systems in accordance with the Massachusetts Title V ("Title-Five") regulations 310 CMR 15.000.</p> <p>The Title V Bot application guides the user through the necessary design procedure for a typical septic system. Built in alerts serve the purpose of notifying the user of any inputs that may be against the regulations. Having these built in edge cases also make the application a good tool for teaching someone who may not be too familiar with the regulations.</p></div>),
-      imgSrc: './Images/IMG_5249.JPG',
+      imgSrc: './Images/TitleVBotScreenshot.jpg',
       imgAlt: 'Title V Bot',
       toolsList: ['HTML', 'JavaScript', 'CSS', 'Netlify'],
       repoLink: 'https://github.com/dmeegan/TitleVBot',
